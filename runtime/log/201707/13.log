@@ -1,0 +1,86 @@
+[ 2017-07-13T15:59:39+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] o2o.com/ [运行时间：0.799000s][吞吐率：1.25req/s] [内存消耗：2,934.61kb] [文件加载：65]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'cityname',
+  2 => 'useraccount',
+  3 => 'cats',
+  4 => 'controller',
+  5 => 'title',
+  6 => 'params',
+  7 => 'featuredArr',
+  8 => 'dealDatas',
+  9 => 'meishicats',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.045000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'beijing' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.041000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` IN (33,11,5,4,3)  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` WHERE  `status` = 1 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_deal` [ RunTime:0.049000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_deal` WHERE  `end_time` > 1499932779  AND `category_id` = 33  AND `se_city_id` = 2  AND `status` = 1 ORDER BY `listorder`  desc,`id`  desc LIMIT 10 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 33 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-07-13T16:03:58+08:00 ] 127.0.0.1 127.0.0.1 GET /weixinexample/native.php
+[ log ] o2o.com/weixinexample/native.php [运行时间：0.162600s][吞吐率：6.15req/s] [内存消耗：1,401.93kb] [文件加载：43]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'weixinexample',
+    1 => 'native.php',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2iab5h66tjk3osq5unuo06m182',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

@@ -1,0 +1,59 @@
+[ 2017-07-26T10:37:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] o2o.com/admin [运行时间：0.352000s][吞吐率：2.84req/s] [内存消耗：1,394.68kb] [文件加载：51]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=m1082499h758kr07ngt8rom1b5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'o2o.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-07-26T10:37:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/welcome.html
+[ log ] o2o.com/admin/index/welcome.html [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,344.84kb] [文件加载：50]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=m1082499h758kr07ngt8rom1b5',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://o2o.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'o2o.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

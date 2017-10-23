@@ -1,0 +1,15 @@
+.tp5-o2o .pagination li{
+    display:inline;
+    padding-left:20px;
+}
+.pagination .active{color:red;}
+.pagination .disabled{color:#888888;}
+
+.uploadify-button{
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #5a98de), color-stop(1, #5a98de) )!important;
+	border: 1px solid #ffffff!important;
+}
+.pagination{
+	float: right;
+	margin-right: 100px;
+}

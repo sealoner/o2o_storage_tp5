@@ -1,0 +1,2987 @@
+[ 2017-06-20T22:07:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.734000s][吞吐率：1.36req/s] [内存消耗：2,434.46kb] [文件加载：57]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '82',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => '644935301@qq.com',
+  'mobile' => '123',
+  'user' => '123',
+  'password' => '122',
+  'password1' => '122',
+  'verify' => '123',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:07:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.042200s][吞吐率：23.70req/s] [内存消耗：1,849.58kb] [文件加载：53]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:07:17+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.565000s][吞吐率：1.77req/s] [内存消耗：2,293.12kb] [文件加载：55]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '80',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => '644935301@qq.com',
+  'mobile' => '123',
+  'user' => '123',
+  'password' => '12',
+  'password1' => '12',
+  'verify' => '123',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:07:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.034200s][吞吐率：29.24req/s] [内存消耗：1,704.95kb] [文件加载：51]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:07:40+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：1,603.45kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '82',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'email' => '644935301@qq.com',
+  'mobile' => '123',
+  'user' => '123',
+  'password' => '111',
+  'password1' => '111',
+  'verify' => '123',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:08:11+08:00 ] 127.0.0.1 127.0.0.1 GET /bis
+[ log ] o2o.com/bis [运行时间：0.172000s][吞吐率：5.81req/s] [内存消耗：1,717.15kb] [文件加载：53]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:08:13+08:00 ] 127.0.0.1 127.0.0.1 GET /bis/login/index.html
+[ log ] o2o.com/bis/login/index.html [运行时间：0.101600s][吞吐率：9.84req/s] [内存消耗：1,856.33kb] [文件加载：53]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/bis',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Login->index[ F:\Aaron\GitHub\tp5_o2o\application\bis\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/bis\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:08:14+08:00 ] 127.0.0.1 127.0.0.1 GET /captcha.html
+[ log ] o2o.com/captcha.html [运行时间：0.185000s][吞吐率：5.41req/s] [内存消耗：1,424.97kb] [文件加载：42]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.com/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ F:\Aaron\GitHub\tp5_o2o\vendor\topthink\think-captcha\src\CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:08:15+08:00 ] 127.0.0.1 127.0.0.1 GET /bis/register/index.html
+[ log ] o2o.com/bis/register/index.html [运行时间：0.438000s][吞吐率：2.28req/s] [内存消耗：2,922.42kb] [文件加载：63]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/bis/login/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.044000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.029000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:08:16+08:00 ] 127.0.0.1 127.0.0.1 GET /bis/register/
+[ log ] o2o.com/bis/register/ [运行时间：0.096000s][吞吐率：10.42req/s] [内存消耗：2,765.79kb] [文件加载：61]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.131',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.024000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:08:16+08:00 ] 127.0.0.1 127.0.0.1 GET /bis/register/
+[ log ] o2o.com/bis/register/ [运行时间：0.133000s][吞吐率：7.52req/s] [内存消耗：2,765.79kb] [文件加载：61]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.131',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\bis\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/bis\view\register\index.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.035000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.035000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:08:22+08:00 ] 127.0.0.1 127.0.0.1 POST /api/city/getcitysbyparentid.html
+[ log ] o2o.com/api/city/getcitysbyparentid.html [运行时间：0.225800s][吞吐率：4.43req/s] [内存消耗：2,631.00kb] [文件加载：59]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'city',
+    2 => 'getcitysbyparentid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://o2o.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://o2o.com/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '14',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\City->getCitysByParentId[ F:\Aaron\GitHub\tp5_o2o\application\api\controller\City.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.015600s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 14 ORDER BY `id`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:08:25+08:00 ] 127.0.0.1 127.0.0.1 POST /api/image/upload.html
+[ log ] o2o.com/api/image/upload.html [运行时间：0.111000s][吞吐率：9.01req/s] [内存消耗：1,719.82kb] [文件加载：51]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '102235',
+  'origin' => 'http://o2o.com',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.131',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----------cH2cH2Ef1gL6ei4ae0cH2KM7KM7gL6',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => '558840180d047.png',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ F:\Aaron\GitHub\tp5_o2o\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:08:27+08:00 ] 127.0.0.1 127.0.0.1 POST /api/image/upload.html
+[ log ] o2o.com/api/image/upload.html [运行时间：0.037000s][吞吐率：27.03req/s] [内存消耗：1,719.85kb] [文件加载：51]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'image',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '32822',
+  'origin' => 'http://o2o.com',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.131',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----------ei4Ef1GI3ei4ae0ae0ei4gL6ae0gL6',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'Filename' => 'a09d66d0f703918f3365c741573d26975beec4c4.jpg',
+  'Upload' => 'Submit Query',
+)
+[ info ] [ RUN ] app\api\controller\Image->upload[ F:\Aaron\GitHub\tp5_o2o\application\api\controller\Image.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:08:56+08:00 ] 127.0.0.1 127.0.0.1 POST /api/category/getcategorybyparantid.html
+[ log ] o2o.com/api/category/getcategorybyparantid.html [运行时间：0.149200s][吞吐率：6.70req/s] [内存消耗：2,632.29kb] [文件加载：59]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'category',
+    2 => 'getcategorybyparantid',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://o2o.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://o2o.com/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Category->getCategoryByParantId[ F:\Aaron\GitHub\tp5_o2o\application\api\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 5 ORDER BY `id`  desc [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:09:12+08:00 ] 127.0.0.1 127.0.0.1 POST /bis/register/add.html
+[ log ] o2o.com/bis/register/add.html [运行时间：1.159000s][吞吐率：0.86req/s] [内存消耗：3,488.14kb] [文件加载：70]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '700',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/bis/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'aiyahaofan',
+  'city_id' => '14',
+  'logo' => '/uploads\\20170620\\a4ab886beea4d1899a5253b8e73abf4f.png',
+  'licence_logo' => '/uploads\\20170620\\3898075da3f217d4b427da93cfcc0c79.jpg',
+  'bank_info' => '62222021313000522744',
+  'bank_name' => '饿呢嗯嗯',
+  'bank_user' => '是多少',
+  'faren' => '阿斯达多所',
+  'faren_tel' => '123123123',
+  'email' => '644935301@qq.com',
+  'tel' => '1232',
+  'contact' => '速度',
+  'category_id' => '5',
+  'address' => '安徽省滁州市成业家园22幢',
+  'open_time' => '',
+  'username' => '23333',
+  'password' => '23333',
+  'description' => '<p>cdcscadcsc</p>',
+  'content' => '<p>到处撒搭错车</p>',
+)
+[ info ] [ RUN ] app\bis\controller\Register->add[ F:\Aaron\GitHub\tp5_o2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.038000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `name` = 'aiyahaofan' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.028000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `username` = '23333' LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_bis` (`name` , `email` , `logo` , `licence_logo` , `city_id` , `city_path` , `bank_info` , `bank_name` , `bank_user` , `faren` , `faren_tel` , `description` , `status` , `update_time` , `create_time`) VALUES ('aiyahaofan' , '644935301@qq.com' , '/uploads\\20170620\\a4ab886beea4d1899a5253b8e73abf4f.png' , '/uploads\\20170620\\3898075da3f217d4b427da93cfcc0c79.jpg' , 14 , '14' , '62222021313000522744' , '饿呢嗯嗯' , '是多少' , '阿斯达多所' , '123123123' , '<p>cdcscadcsc</p>' , 0 , 1497967751 , 1497967751) [ RunTime:0.034000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.026000s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_bis_location` (`name` , `logo` , `tel` , `contact` , `category_id` , `category_path` , `xpoint` , `ypoint` , `api_address` , `bank_info` , `bis_id` , `open_time` , `city_id` , `city_path` , `content` , `is_main` , `status` , `update_time` , `create_time`) VALUES ('aiyahaofan' , '/uploads\\20170620\\a4ab886beea4d1899a5253b8e73abf4f.png' , '1232' , '速度' , 5 , '5,' , '118.33312545333' , '32.289063825133' , '安徽省滁州市成业家园22幢' , '62222021313000522744' , 5 , '9:00~19:00' , 14 , '14' , '<p>到处撒搭错车</p>' , 1 , 0 , 1497967751 , 1497967751) [ RunTime:0.037000s ]
+[ sql ] [ SQL ] INSERT INTO `o2o_bis_account` (`username` , `password` , `code` , `is_main` , `last_login_ip` , `last_login_time` , `bis_id` , `status` , `update_time` , `create_time`) VALUES ('23333' , '1d2e6a9021c7c78abe04983805663b8d' , 'ec4a427258aa615cc0b56df3b79683ac' , 1 , '127.0.0.1' , '2017-06-20 22:09:12' , 5 , 0 , 1497967751 , 1497967751) [ RunTime:0.051000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:09:16+08:00 ] 127.0.0.1 127.0.0.1 GET /bis/register/waiting.html?id=5
+[ log ] o2o.com/bis/register/waiting.html?id=5 [运行时间：0.102200s][吞吐率：9.78req/s] [内存消耗：2,824.92kb] [文件加载：62]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'bis',
+    1 => 'register',
+    2 => 'waiting',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/bis/register/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+)
+[ info ] [ RUN ] app\bis\controller\Register->waiting[ F:\Aaron\GitHub\tp5_o2o\application\bis\controller\Register.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/bis\view\register\waiting.html [ array (
+  0 => 'detail',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:09:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] o2o.com/admin [运行时间：0.168200s][吞吐率：5.95req/s] [内存消耗：1,854.06kb] [文件加载：53]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:09:32+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/welcome.html
+[ log ] o2o.com/admin/index/welcome.html [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,652.23kb] [文件加载：50]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:09:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bis/apply.html
+[ log ] o2o.com/admin/bis/apply.html [运行时间：0.291600s][吞吐率：3.43req/s] [内存消耗：3,002.38kb] [文件加载：66]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->apply[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\bis\apply.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:09:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bis/status.html?id=5&status=1
+[ log ] o2o.com/admin/bis/status.html?id=5&status=1 [运行时间：0.899600s][吞吐率：1.11req/s] [内存消耗：3,497.48kb] [文件加载：71]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/bis/apply.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '5',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->status[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Bis.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis`  SET `status`=1,`update_time`=1497967783  WHERE  `id` = 5 [ RunTime:0.051000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis_location`  SET `status`=1,`update_time`=1497967783  WHERE  `bis_id` = 5  AND `is_main` = 1 [ RunTime:0.036000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis_account`  SET `status`=1,`update_time`=1497967783  WHERE  `bis_id` = 5  AND `is_main` = 1 [ RunTime:0.042000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:09:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bis/apply.html
+[ log ] o2o.com/admin/bis/apply.html [运行时间：0.070200s][吞吐率：14.25req/s] [内存消耗：2,849.30kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/bis/status.html?id=5&status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->apply[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\bis\apply.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:09:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bis/index.html
+[ log ] o2o.com/admin/bis/index.html [运行时间：0.153600s][吞吐率：6.51req/s] [内存消耗：3,004.04kb] [文件加载：66]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.017000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` IN (-1,1,2) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` IN (-1,1,2) ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:14:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bis/apply.html
+[ log ] o2o.com/admin/bis/apply.html [运行时间：0.083600s][吞吐率：11.96req/s] [内存消耗：2,849.22kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->apply[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\bis\apply.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:14:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bis/status.html?id=4&status=1
+[ log ] o2o.com/admin/bis/status.html?id=4&status=1 [运行时间：1.616200s][吞吐率：0.62req/s] [内存消耗：3,497.25kb] [文件加载：71]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'status',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/bis/apply.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+  'status' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->status[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Bis.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis`  SET `status`=1,`update_time`=1497968077  WHERE  `id` = 4 [ RunTime:0.043000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis_location`  SET `status`=1,`update_time`=1497968077  WHERE  `bis_id` = 4  AND `is_main` = 1 [ RunTime:0.035000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] UPDATE `o2o_bis_account`  SET `status`=1,`update_time`=1497968077  WHERE  `bis_id` = 4  AND `is_main` = 1 [ RunTime:0.037000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 4 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:14:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bis/apply.html
+[ log ] o2o.com/admin/bis/apply.html [运行时间：0.060000s][吞吐率：16.67req/s] [内存消耗：2,844.56kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/bis/status.html?id=4&status=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->apply[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\bis\apply.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:14:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bis/apply.html
+[ log ] o2o.com/admin/bis/apply.html [运行时间：0.062600s][吞吐率：15.97req/s] [内存消耗：2,844.48kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'apply',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->apply[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\bis\apply.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` = 0 ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:14:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bis/detail.html?id=3
+[ log ] o2o.com/admin/bis/detail.html?id=3 [运行时间：0.252000s][吞吐率：3.97req/s] [内存消耗：3,068.63kb] [文件加载：67]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/bis/apply.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->detail[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\bis\detail.html [ array (
+  0 => 'citys',
+  1 => 'categorys',
+  2 => 'bisData',
+  3 => 'locationData',
+  4 => 'accountData',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `status` = 1  AND `parent_id` = 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_location` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_location` WHERE  `bis_id` = 3  AND `is_main` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis_account` [ RunTime:0.009000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis_account` WHERE  `bis_id` = 3  AND `is_main` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `id` = 12 LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:15:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/bis/index.html
+[ log ] o2o.com/admin/bis/index.html [运行时间：0.061000s][吞吐率：16.39req/s] [内存消耗：2,860.06kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'bis',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Bis->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Bis.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\bis\index.html [ array (
+  0 => 'bis',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_bis` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_bis` WHERE  `status` IN (-1,1,2) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_bis` WHERE  `status` IN (-1,1,2) ORDER BY `id`  desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-20T22:15:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/login
+[ log ] o2o.com/admin/login [运行时间：0.041600s][吞吐率：24.04req/s] [内存消耗：1,846.88kb] [文件加载：53]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\login\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:16:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：1,705.35kb] [文件加载：51]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:16:21+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：1,603.80kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '106',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '644935301@qq.com',
+  'mobile' => '123',
+  'user' => '逼乎儿',
+  'password' => '123',
+  'password1' => '123',
+  'verify' => '123',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:16:38+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：1.159000s][吞吐率：0.86req/s] [内存消耗：2,293.34kb] [文件加载：55]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '106',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '644935301@qq.com',
+  'mobile' => '123',
+  'user' => '逼乎儿',
+  'password' => '123',
+  'password1' => '123',
+  'verify' => '123',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:16:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.039200s][吞吐率：25.51req/s] [内存消耗：1,705.06kb] [文件加载：51]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:17:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：1.194000s][吞吐率：0.84req/s] [内存消耗：2,293.13kb] [文件加载：55]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '83',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '1049318903@qq.com',
+  'mobile' => '123',
+  'user' => '123',
+  'password' => '123',
+  'password1' => '123',
+  'verify' => '123',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:17:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.038200s][吞吐率：26.18req/s] [内存消耗：1,705.06kb] [文件加载：51]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\register\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:01+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:05+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:06+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:07+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:08+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:08+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:09+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:09+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:09+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:10+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:11+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:11+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:11+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:11+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:12+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:13+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:13+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:13+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:13+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:13+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:14+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:14+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:14+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:14+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:14+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:15+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:16+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:16+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-20T22:19:17+08:00 ] 127.0.0.1 127.0.0.1 POST /admin/register/index.html
+[ log ] o2o.com/admin/register/index.html [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,603.65kb] [文件加载：48]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'register',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '84',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/register/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=t3rcatq00qcctoka13jj21m7g1',
+)
+[ info ] [ PARAM ] array (
+  'email' => '12344@qq.com',
+  'mobile' => '2312',
+  'user' => '2131',
+  'password' => '21312',
+  'password1' => '312',
+  'verify' => '31221',
+)
+[ info ] [ RUN ] app\admin\controller\Register->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

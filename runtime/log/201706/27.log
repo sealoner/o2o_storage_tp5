@@ -1,0 +1,2576 @@
+[ 2017-06-27T09:50:28+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] o2o.com/ [运行时间：1.499000s][吞吐率：0.67req/s] [内存消耗：2,793.31kb] [文件加载：61]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'cityname',
+  2 => 'useraccount',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.041000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'beijing' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T09:50:28+08:00 ] 127.0.0.1 127.0.0.1 GET /js/respond.min.js
+[ log ] o2o.com/js/respond.min.js [运行时间：0.283000s][吞吐率：3.53req/s] [内存消耗：1,398.94kb] [文件加载：43]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'respond.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T09:50:28+08:00 ] 127.0.0.1 127.0.0.1 GET /js/jquery-1.11.3.min.js
+[ log ] o2o.com/js/jquery-1.11.3.min.js [运行时间：0.281000s][吞吐率：3.56req/s] [内存消耗：1,398.84kb] [文件加载：43]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'jquery-1.11.3.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T09:50:28+08:00 ] 127.0.0.1 127.0.0.1 GET /js/html5shiv.js
+[ log ] o2o.com/js/html5shiv.js [运行时间：0.288000s][吞吐率：3.47req/s] [内存消耗：1,398.90kb] [文件加载：43]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'html5shiv.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T09:50:29+08:00 ] 127.0.0.1 127.0.0.1 GET /js/respond.min.js
+[ log ] o2o.com/js/respond.min.js [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,398.92kb] [文件加载：43]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'respond.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T09:50:29+08:00 ] 127.0.0.1 127.0.0.1 GET /js/jquery-1.11.3.min.js
+[ log ] o2o.com/js/jquery-1.11.3.min.js [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,398.85kb] [文件加载：43]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'jquery-1.11.3.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T10:40:41+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] o2o.com/ [运行时间：0.075000s][吞吐率：13.33req/s] [内存消耗：2,793.49kb] [文件加载：61]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'cityname',
+  2 => 'useraccount',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.030000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'beijing' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:40:41+08:00 ] 127.0.0.1 127.0.0.1 GET /js/html5shiv.js
+[ log ] o2o.com/js/html5shiv.js [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,398.92kb] [文件加载：43]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'html5shiv.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T10:40:41+08:00 ] 127.0.0.1 127.0.0.1 GET /js/respond.min.js
+[ log ] o2o.com/js/respond.min.js [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,398.94kb] [文件加载：43]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'respond.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T10:40:42+08:00 ] 127.0.0.1 127.0.0.1 GET /js/jquery-1.11.3.min.js
+[ log ] o2o.com/js/jquery-1.11.3.min.js [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：1,398.85kb] [文件加载：43]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'jquery-1.11.3.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T10:40:42+08:00 ] 127.0.0.1 127.0.0.1 GET /js/respond.min.js
+[ log ] o2o.com/js/respond.min.js [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,398.92kb] [文件加载：43]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'respond.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T10:40:42+08:00 ] 127.0.0.1 127.0.0.1 GET /js/jquery-1.11.3.min.js
+[ log ] o2o.com/js/jquery-1.11.3.min.js [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,398.85kb] [文件加载：43]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'js',
+    1 => 'jquery-1.11.3.min.js',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/login.html
+[ log ] o2o.com/index/user/login.html [运行时间：0.158000s][吞吐率：6.33req/s] [内存消耗：1,721.27kb] [文件加载：51]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:11+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/logincheck.html
+[ log ] o2o.com/index/user/logincheck.html [运行时间：0.345000s][吞吐率：2.90req/s] [内存消耗：2,693.16kb] [文件加载：62]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12345',
+  'password' => '13245',
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_user` [ RunTime:0.065000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_user` WHERE  `username` = '12345' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:14+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/login.html
+[ log ] o2o.com/index/user/login.html [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,721.27kb] [文件加载：51]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:20+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/logincheck.html
+[ log ] o2o.com/index/user/logincheck.html [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：2,692.01kb] [文件加载：62]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'username' => '123456',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_user` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_user` WHERE  `username` = '123456' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/user/login.html
+[ log ] o2o.com/index/user/login.html [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,721.27kb] [文件加载：51]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\User->login[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\User.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\user\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:28+08:00 ] 127.0.0.1 127.0.0.1 POST /index/user/logincheck.html
+[ log ] o2o.com/index/user/logincheck.html [运行时间：0.254000s][吞吐率：3.94req/s] [内存消耗：2,835.16kb] [文件加载：66]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'user',
+    2 => 'logincheck',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://o2o.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/index/user/login.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'username' => '12345',
+  'password' => '12345',
+)
+[ info ] [ RUN ] app\index\controller\User->logincheck[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_user` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_user` WHERE  `username` = '12345' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] UPDATE `o2o_user`  SET `last_login_time`='1498531648',`update_time`=1498531648  WHERE  `id` = 1 [ RunTime:0.041000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html
+[ log ] o2o.com/index/index/index.html [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：2,853.22kb] [文件加载：63]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/index/user/logincheck.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'cityname',
+  2 => 'useraccount',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'beijing' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/jquery-1.11.3.min.js
+[ log ] o2o.com/index/index/js/jquery-1.11.3.min.js [运行时间：0.080000s][吞吐率：12.50req/s] [内存消耗：2,765.99kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.021000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'beijing' LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/respond.min.js
+[ log ] o2o.com/index/index/js/respond.min.js [运行时间：0.103000s][吞吐率：9.71req/s] [内存消耗：2,766.07kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.042000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'beijing' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/html5shiv.js
+[ log ] o2o.com/index/index/js/html5shiv.js [运行时间：0.145000s][吞吐率：6.90req/s] [内存消耗：2,765.95kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.055000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'beijing' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/respond.min.js
+[ log ] o2o.com/index/index/js/respond.min.js [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：2,766.07kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'beijing' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/jquery-1.11.3.min.js
+[ log ] o2o.com/index/index/js/jquery-1.11.3.min.js [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：2,766.00kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'beijing' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html?city=chuzhou
+[ log ] o2o.com/index/index/index.html?city=chuzhou [运行时间：0.085000s][吞吐率：11.76req/s] [内存消耗：2,853.50kb] [文件加载：63]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'chuzhou',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'cityname',
+  2 => 'useraccount',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/jquery-1.11.3.min.js
+[ log ] o2o.com/index/index/js/jquery-1.11.3.min.js [运行时间：0.120000s][吞吐率：8.33req/s] [内存消耗：2,766.05kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.064000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/html5shiv.js
+[ log ] o2o.com/index/index/js/html5shiv.js [运行时间：0.148000s][吞吐率：6.76req/s] [内存消耗：2,766.08kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.057000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/respond.min.js
+[ log ] o2o.com/index/index/js/respond.min.js [运行时间：0.123000s][吞吐率：8.13req/s] [内存消耗：2,766.13kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T10:47:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/jquery-1.11.3.min.js
+[ log ] o2o.com/index/index/js/jquery-1.11.3.min.js [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：2,766.05kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:04:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html?city=chuzhou
+[ log ] o2o.com/index/index/index.html?city=chuzhou [运行时间：0.100000s][吞吐率：10.00req/s] [内存消耗：2,853.50kb] [文件加载：63]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'chuzhou',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'cityname',
+  2 => 'useraccount',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.034000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:04:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/html5shiv.js
+[ log ] o2o.com/index/index/js/html5shiv.js [运行时间：0.091000s][吞吐率：10.99req/s] [内存消耗：2,766.08kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.038000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:04:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/respond.min.js
+[ log ] o2o.com/index/index/js/respond.min.js [运行时间：0.096000s][吞吐率：10.42req/s] [内存消耗：2,766.13kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T11:04:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/jquery-1.11.3.min.js
+[ log ] o2o.com/index/index/js/jquery-1.11.3.min.js [运行时间：0.161000s][吞吐率：6.21req/s] [内存消耗：2,766.05kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.098000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T16:09:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] o2o.com/admin [运行时间：1.227500s][吞吐率：0.81req/s] [内存消耗：1,704.92kb] [文件加载：51]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T16:09:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/welcome.html
+[ log ] o2o.com/admin/index/welcome.html [运行时间：0.075000s][吞吐率：13.33req/s] [内存消耗：1,652.73kb] [文件加载：50]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'welcome',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->welcome[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T16:11:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/add.html
+[ log ] o2o.com/admin/featured/add.html [运行时间：0.392500s][吞吐率：2.55req/s] [内存消耗：2,672.11kb] [文件加载：61]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Featured->add[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\add.html [ array (
+  0 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T16:11:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/
+[ log ] o2o.com/admin/featured/ [运行时间：0.387500s][吞吐率：2.58req/s] [内存消耗：2,853.63kb] [文件加载：65]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.131',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/admin/featured/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Featured->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\index.html [ array (
+  0 => 'results',
+  1 => 'type',
+  2 => 'showType',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.060000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` LIMIT 1 [ RunTime:0.040000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T16:11:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/index.html
+[ log ] o2o.com/admin/featured/index.html [运行时间：0.065000s][吞吐率：15.38req/s] [内存消耗：2,853.65kb] [文件加载：65]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Featured->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\index.html [ array (
+  0 => 'results',
+  1 => 'type',
+  2 => 'showType',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` LIMIT 1 [ RunTime:0.002500s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T16:11:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/edit.html?id=2&type=1
+[ log ] o2o.com/admin/featured/edit.html?id=2&type=1 [运行时间：0.345000s][吞吐率：2.90req/s] [内存消耗：2,881.88kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/featured/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'type' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Base->edit[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Base.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\edit.html [ array (
+  0 => 'results',
+  1 => 'type',
+  2 => 'showType',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012500s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.020000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T16:11:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/
+[ log ] o2o.com/admin/featured/ [运行时间：0.087500s][吞吐率：11.43req/s] [内存消耗：2,853.63kb] [文件加载：65]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.131',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/admin/featured/edit.html?id=2&type=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Featured->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\index.html [ array (
+  0 => 'results',
+  1 => 'type',
+  2 => 'showType',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.035000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:33:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html?city=chuzhou
+[ log ] o2o.com/index/index/index.html?city=chuzhou [运行时间：2.296000s][吞吐率：0.44req/s] [内存消耗：2,853.63kb] [文件加载：63]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'chuzhou',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'cityname',
+  2 => 'useraccount',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:33:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html?city=chuzhou
+[ log ] o2o.com/index/index/index.html?city=chuzhou [运行时间：1.221000s][吞吐率：0.82req/s] [内存消耗：2,853.63kb] [文件加载：63]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'chuzhou',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'cityname',
+  2 => 'useraccount',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:33:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index.html?city=chuzhou
+[ log ] o2o.com/index/index/index.html?city=chuzhou [运行时间：0.070000s][吞吐率：14.29req/s] [内存消耗：2,853.70kb] [文件加载：63]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/index/index/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'city' => 'chuzhou',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\Aaron\GitHub\tp5_o2o\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/index\view\index\index.html [ array (
+  0 => 'citys',
+  1 => 'cityname',
+  2 => 'useraccount',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:33:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/jquery-1.11.3.min.js
+[ log ] o2o.com/index/index/js/jquery-1.11.3.min.js [运行时间：0.254000s][吞吐率：3.94req/s] [内存消耗：2,766.05kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.040000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:33:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/respond.min.js
+[ log ] o2o.com/index/index/js/respond.min.js [运行时间：0.277000s][吞吐率：3.61req/s] [内存消耗：2,766.13kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.043000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:33:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/html5shiv.js
+[ log ] o2o.com/index/index/js/html5shiv.js [运行时间：0.288000s][吞吐率：3.47req/s] [内存消耗：2,766.08kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.025000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:33:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/respond.min.js
+[ log ] o2o.com/index/index/js/respond.min.js [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：2,766.13kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:33:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/js/jquery-1.11.3.min.js
+[ log ] o2o.com/index/index/js/jquery-1.11.3.min.js [运行时间：0.072000s][吞吐率：13.89req/s] [内存消耗：2,766.05kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/index/index/index.html?city=chuzhou',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_city` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `status` = 1  AND `parent_id` > 0 ORDER BY `id`  desc [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_city` WHERE  `uname` = 'chuzhou' LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:13+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ log ] o2o.com/admin/category/index.html [运行时间：2.338000s][吞吐率：0.43req/s] [内存消耗：2,824.87kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.019000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,2 [ RunTime:0.005000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/map.html
+[ log ] o2o.com/admin/index/map.html [运行时间：1.147000s][吞吐率：0.87req/s] [内存消耗：1,666.20kb] [文件加载：50]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->map[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html?page=2
+[ log ] o2o.com/admin/category/index.html?page=2 [运行时间：0.058000s][吞吐率：17.24req/s] [内存消耗：2,825.34kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 2,2 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/map.html
+[ log ] o2o.com/admin/index/map.html [运行时间：0.312000s][吞吐率：3.21req/s] [内存消耗：1,666.13kb] [文件加载：50]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->map[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html?page=3
+[ log ] o2o.com/admin/category/index.html?page=3 [运行时间：0.054000s][吞吐率：18.52req/s] [内存消耗：2,825.41kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html?page=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'page' => '3',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 4,2 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/map.html
+[ log ] o2o.com/admin/index/map.html [运行时间：0.285000s][吞吐率：3.51req/s] [内存消耗：1,666.16kb] [文件加载：50]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html?page=3',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->map[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html
+[ log ] o2o.com/admin/category/index.html [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：2,835.00kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 0  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/map.html
+[ log ] o2o.com/admin/index/map.html [运行时间：0.298000s][吞吐率：3.36req/s] [内存消耗：1,666.20kb] [文件加载：50]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->map[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html?parent_id=11
+[ log ] o2o.com/admin/category/index.html?parent_id=11 [运行时间：0.154000s][吞吐率：6.49req/s] [内存消耗：2,824.75kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'parent_id' => '11',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 11  AND `status` <> -1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 11  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,10 [ RunTime:0.101000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/map.html
+[ log ] o2o.com/admin/index/map.html [运行时间：0.151000s][吞吐率：6.62req/s] [内存消耗：1,666.21kb] [文件加载：50]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html?parent_id=11',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->map[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html?parent_id=2
+[ log ] o2o.com/admin/category/index.html?parent_id=2 [运行时间：0.055000s][吞吐率：18.18req/s] [内存消耗：2,818.94kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'parent_id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 2  AND `status` <> -1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 2  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/map.html
+[ log ] o2o.com/admin/index/map.html [运行时间：0.335000s][吞吐率：2.99req/s] [内存消耗：1,666.21kb] [文件加载：50]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html?parent_id=2',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->map[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/category/index.html?parent_id=5
+[ log ] o2o.com/admin/category/index.html?parent_id=5 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：2,818.94kb] [文件加载：64]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'parent_id' => '5',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Category->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Category.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\category\index.html [ array (
+  0 => 'categorys',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_category` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_category` WHERE  `parent_id` = 5  AND `status` <> -1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_category` WHERE  `parent_id` = 5  AND `status` <> -1 ORDER BY `listorder`  desc,`id`  desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:46:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/map.html
+[ log ] o2o.com/admin/index/map.html [运行时间：0.182000s][吞吐率：5.49req/s] [内存消耗：1,666.21kb] [文件加载：50]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/category/index.html?parent_id=5',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->map[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T17:47:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/add.html
+[ log ] o2o.com/admin/featured/add.html [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：2,672.11kb] [文件加载：61]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Featured->add[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\add.html [ array (
+  0 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T17:47:21+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/
+[ log ] o2o.com/admin/featured/ [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：2,853.63kb] [文件加载：65]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.131',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/admin/featured/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Featured->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\index.html [ array (
+  0 => 'results',
+  1 => 'type',
+  2 => 'showType',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:47:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/index.html
+[ log ] o2o.com/admin/featured/index.html [运行时间：0.063000s][吞吐率：15.87req/s] [内存消耗：2,853.65kb] [文件加载：65]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Featured->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\index.html [ array (
+  0 => 'results',
+  1 => 'type',
+  2 => 'showType',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:47:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/edit.html?id=1&type=1
+[ log ] o2o.com/admin/featured/edit.html?id=1&type=1 [运行时间：0.067000s][吞吐率：14.93req/s] [内存消耗：2,733.94kb] [文件加载：62]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin/featured/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'type' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Base->edit[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Base.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\edit.html [ array (
+  0 => 'results',
+  1 => 'type',
+  2 => 'showType',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:47:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/
+[ log ] o2o.com/admin/featured/ [运行时间：0.059000s][吞吐率：16.95req/s] [内存消耗：2,853.63kb] [文件加载：65]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.131',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/admin/featured/edit.html?id=1&type=1',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Featured->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\index.html [ array (
+  0 => 'results',
+  1 => 'type',
+  2 => 'showType',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:47:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/add.html
+[ log ] o2o.com/admin/featured/add.html [运行时间：0.046000s][吞吐率：21.74req/s] [内存消耗：2,672.11kb] [文件加载：61]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Featured->add[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\add.html [ array (
+  0 => 'type',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2017-06-27T17:47:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/
+[ log ] o2o.com/admin/featured/ [运行时间：0.056000s][吞吐率：17.86req/s] [内存消耗：2,853.63kb] [文件加载：65]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'x-requested-with' => 'ShockwaveFlash/26.0.0.131',
+  'accept' => '*/*',
+  'referer' => 'http://o2o.com/admin/featured/add.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Featured->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\index.html [ array (
+  0 => 'results',
+  1 => 'type',
+  2 => 'showType',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2017-06-27T17:47:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/featured/index.html
+[ log ] o2o.com/admin/featured/index.html [运行时间：0.062000s][吞吐率：16.13req/s] [内存消耗：2,853.65kb] [文件加载：65]
+[ info ] [ LANG ] F:\Aaron\GitHub\tp5_o2o\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'featured',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'o2o.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://o2o.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'PHPSESSID=2485h1gi4bp5r3aaiajecu0m80',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Featured->index[ F:\Aaron\GitHub\tp5_o2o\application\admin\controller\Featured.php ]
+[ info ] [ VIEW ] F:\Aaron\GitHub\tp5_o2o\public/../application/admin\view\featured\index.html [ array (
+  0 => 'results',
+  1 => 'type',
+  2 => 'showType',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:dbname=imooc_o2o;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `o2o_featured` [ RunTime:0.012000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `o2o_featured` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `o2o_featured` LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
