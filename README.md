@@ -1,34 +1,39 @@
-ThinkPHP 5.0
+基于ThinkPHP5.X搭建的O2O商城
 ===============
-
-[![Total Downloads](https://poser.pugx.org/topthink/think/downloads)](https://packagist.org/packages/topthink/think)
-[![Latest Stable Version](https://poser.pugx.org/topthink/think/v/stable)](https://packagist.org/packages/topthink/think)
-[![Latest Unstable Version](https://poser.pugx.org/topthink/think/v/unstable)](https://packagist.org/packages/topthink/think)
-[![License](https://poser.pugx.org/topthink/think/license)](https://packagist.org/packages/topthink/think)
-
-ThinkPHP5在保持快速开发和大道至简的核心理念不变的同时，PHP版本要求提升到5.4，对已有的CBD模式做了更深的强化，优化核心，减少依赖，基于全新的架构思想和命名空间实现，是ThinkPHP突破原有框架思路的颠覆之作，其主要特性包括：
-
- + 基于命名空间和众多PHP新特性
- + 核心功能组件化
- + 强化路由功能
- + 更灵活的控制器
- + 重构的模型和数据库类
- + 配置文件可分离
- + 重写的自动验证和完成
- + 简化扩展机制
- + API支持完善
- + 改进的Log类
- + 命令行访问支持
- + REST支持
- + 引导文件支持
- + 方便的自动生成定义
- + 真正惰性加载
- + 分布式环境支持
- + 更多的社交类库
 
 > ThinkPHP5的运行环境要求PHP5.4以上。
 
-详细开发文档参考 [ThinkPHP5完全开发手册](http://www.kancloud.cn/manual/thinkphp5)
+## 项目说明
+PHP刚入门接触的第一个框架是ThinkPHP3.2，那个时候，单字母函数对于我这个新手小白来说简单而又直白，但是随着学习深度的增加，这种函数命名方式在我看来变得越来越愚蠢和尴尬。
+
+2017年3月，ThinkPHP5.0发布，不仅增加了Composer及单元测试，还支持惰性加载以及自动加载的缓存机制，底层的代码也进行了重构，更重要的是拜托了那愚蠢的单字母函数，整个框架与TP3.X相比，变得更加优雅与高效（虽然随处可见Laravel的影子(￣▽￣)~* )。
+
+最近正好有空在整理电脑，发现了很多从前自己写的项目，有已经写完的也有还差几个功能模块没写的，借此机会将这些还没有完成的项目放在GitHub上，慢慢的将之补全，也希望可以帮助那些有需要的人节省一些重复造轮子的时间。
+
+这套代码是基于ThinkPHP5.0.3框架开发的一套O2O线上商城，于2017年5月底完成基本功能的构建，包括：
+1. 前、后台模块页面的搭建；
+2. 数据库的构建；
+3. 商家的会话管理与CRUD；
+4. 管理员的会话管理与CRUD；
+5. 生活服务分类管理模块；
+6. 百度地图应用的封装；
+7. 封装phpmailer类库；
+8. 商户模块（图片上传处理、商户入驻后台的开发、门店管理、团购商品列表页开发等）；
+9. 推荐位管理；
+10. 前台页面商品详情页的开发；
+11. 商品的抢购与秒杀；
+12. 订单及微信支付（待开发）
+
+…………
+
+## 数据库
+数据库名称为`o2o_storage`，如要修改，请在`\application\database.php`中的'database'配置项中修改默认数据库名。
+
+数据表文件以及测试数据，见包中的`o2o_storage.sql`文件。
+
+## 近期目标
+1. 改Bug
+2. 完成微信支付接口模块
 
 ## 目录结构
 
@@ -85,45 +90,3 @@ www  WEB部署目录（或者子目录）
 > router.php用于php自带webserver支持，可用于快速测试
 > 切换到public目录后，启动命令：php -S localhost:8888  router.php
 > 上面的目录结构和名称是可以改变的，这取决于你的入口文件和配置参数。
-
-## 命名规范
-
-`ThinkPHP5`遵循PSR-2命名规范和PSR-4自动加载规范，并且注意如下规范：
-
-### 目录和文件
-
-*   目录不强制规范，驼峰和小写+下划线模式均支持；
-*   类库、函数文件统一以`.php`为后缀；
-*   类的文件名均以命名空间定义，并且命名空间的路径和类库文件所在路径一致；
-*   类名和类文件名保持一致，统一采用驼峰法命名（首字母大写）；
-
-### 函数和类、属性命名
-*   类的命名采用驼峰法，并且首字母大写，例如 `User`、`UserType`，默认不需要添加后缀，例如`UserController`应该直接命名为`User`；
-*   函数的命名使用小写字母和下划线（小写字母开头）的方式，例如 `get_client_ip`；
-*   方法的命名使用驼峰法，并且首字母小写，例如 `getUserName`；
-*   属性的命名使用驼峰法，并且首字母小写，例如 `tableName`、`instance`；
-*   以双下划线“__”打头的函数或方法作为魔法方法，例如 `__call` 和 `__autoload`；
-
-### 常量和配置
-*   常量以大写字母和下划线命名，例如 `APP_PATH`和 `THINK_PATH`；
-*   配置参数以小写字母和下划线命名，例如 `url_route_on` 和`url_convert`；
-
-### 数据表和字段
-*   数据表和字段采用小写加下划线方式命名，并注意字段名不要以下划线开头，例如 `think_user` 表和 `user_name`字段，不建议使用驼峰和中文作为数据表字段命名。
-
-## 参与开发
-请参阅 [ThinkPHP5 核心框架包](https://github.com/top-think/framework)。
-
-## 版权信息
-
-ThinkPHP遵循Apache2开源协议发布，并提供免费使用。
-
-本项目包含的第三方源码和二进制文件之版权信息另行标注。
-
-版权所有Copyright © 2006-2016 by ThinkPHP (http://thinkphp.cn)
-
-All rights reserved。
-
-ThinkPHP® 商标和著作权所有者为上海顶想信息科技有限公司。
-
-更多细节参阅 [LICENSE.txt](LICENSE.txt)

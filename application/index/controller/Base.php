@@ -49,7 +49,6 @@ class Base extends Controller
 				break;
 			}
 		}
-		var_dump($defaultuname);
 		//接下来，我把把获取到的$defaultname的值保存到session中去
 		//input方法，第一个参数为获取到的数据，第二个参数为默认值，第三个参数为作用域
 		//
